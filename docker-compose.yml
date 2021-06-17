@@ -2,8 +2,8 @@ version: "3.7"
 services:
   parachain:
     ports:
-      - 19944:9944
-      - 19933:9933
+      - 9944:9944
+      - 9933:9933
     volumes:
       - parachain:/acala/data
     build:
