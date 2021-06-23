@@ -1,2 +1,2 @@
-FROM acala/karura-node:e0131a8d
+FROM acala/karura-node:1.0.1
 COPY . /app
